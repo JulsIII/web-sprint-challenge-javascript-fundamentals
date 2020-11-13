@@ -64,8 +64,11 @@ const zooAnimals = [
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
   The zoos need a list of all their animal's names (animal_name only) converted to lower case. Using map, create a new array of strings named lowCaseAnimalNames, each string following this pattern: "jackal, asiatic". Log the resut.
   */
-  function lowerCaseNames(/*Your Code Here*/){
-    /*Your Code Here*/
+  function lowerCaseNames(zooAnimals){
+    const lowCaseAnimalNames = zooAnimals.map(function(item){
+      return item.animal_name.toLowerCase();
+    });
+    return lowCaseAnimalNames;
   }
   
   
