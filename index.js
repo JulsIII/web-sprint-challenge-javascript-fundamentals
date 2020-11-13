@@ -104,24 +104,25 @@ const zooAnimals = [
   
   /* 🦁🦁🦁 Step 2: Create several functions to callback with consume(); 🦁🦁🦁 */
  // 🦁🦁🦁 Create a function named add that returns the sum of two numbers 🦁🦁🦁
-  function add(/*Your Code Here */){
-    /*Your Code Here*/
+  function add(num1, nuum2){
+    return num1 + nuum2;
   }
+
 // 🦁🦁🦁 Create a function named multiply that returns the product of two numbers 🦁🦁🦁
-  function multiply(/*Your Code Here */){
-   /*Your Code Here */
+  function multiply(num1, num2){
+   return num1 * num2;
   }
 
  // 🦁🦁🦁 Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!" 🦁🦁🦁
-  function greeting(/*Your Code Here */){
-   return /*Your Code Here */
+  function greeting(fName, lName){
+   return `Hello ${fName} ${lName}, nice to meet you!`;
   }
   
   // 🦁🦁🦁 Step 3: Check your work by un-commenting the following calls to consume(): 🦁🦁🦁 
   // ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
-  // console.log(consume(2, 2, add)); // 4
-  // console.log(consume(10, 16, multiply)); // 160
-  // console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
+  console.log(consume(2, 2, add)); // 4
+  console.log(consume(10, 16, multiply)); // 160
+  console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
   
   
 // 🦁💪 Stretch: If you haven't already, convert your array method callbacks into arrow functions 🦁💪
