@@ -90,8 +90,7 @@ const zooAnimals = [
     }, 0);
     return totalPop;
   }
-  
-  
+    
   // 🦁🦁🦁 Callbacks 🦁🦁🦁  
   /* 🦁🦁🦁 Step 1: Create a higher-order function 🦁🦁🦁
     * Create a higher-order function named consume with 3 parameters: a, b and cb
@@ -99,10 +98,9 @@ const zooAnimals = [
     * The last parameter accepts a callback
     * The consume function should return the invocation of cb, passing a and b into cb as arguments
   */
-  function consume(/*Your Code Here */){
-    /*Your Code Here */
-  }
- 
+  function consume(a, b, cb){
+      return cb(a, b);
+    }
   
   /* 🦁🦁🦁 Step 2: Create several functions to callback with consume(); 🦁🦁🦁 */
  // 🦁🦁🦁 Create a function named add that returns the sum of two numbers 🦁🦁🦁
