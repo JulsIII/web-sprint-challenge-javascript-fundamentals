@@ -36,13 +36,13 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 4. Describe the four rules of the 'this' keyword.
     1.  By itself, outside a function, in global scope, "this" refers to a "window object" within a function.
-    2.  When calling a function with a preceding period, "this" is the object before that period.
-    3.  Within a constructer "this" refers to a specific instance of the object that is created by the constuctor function.
-    4.  When Call and Apply methods are used, "this" is explicitly defined.
+    2.  When calling a function with a preceding period, "this" is the object before that period. Implicit.
+    3.  Within a constructer "this" refers to a specific instance of the object that is created by the constuctor function. 
+    4.  When Call and Apply methods are used, "this" is explicitly defined. .Bind
 
 5. Why do we need super() in an extended class?
-    To pass in the Attributes from the Parent Class.
-    
+    To pass in the Methods from the Parent Class.
+
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
@@ -66,17 +66,17 @@ Your finished project must include all of the following requirements
 #### Task A: Closure
 
 This challenge takes a look at closures as well as scope. 
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [*] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task B: Objects and Arrays
 
 Test your knowledge of advanced array methods and callbacks.
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [*] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task C: Prototypes
 
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [*] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task D: Classes
 
@@ -87,7 +87,7 @@ In your solutions, it is essential that you follow best practices and produce cl
 
 ### Task 3: Stretch Goals 
 
-There are a few stretch problems found throughout the files, don't work on them until you are finished with MVP requirements!
+[*] There are a few stretch problems found throughout the files, don't work on them until you are finished with MVP requirements!
 
 ## Submission format
 
