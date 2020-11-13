@@ -17,8 +17,7 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-//When child code shares with parent code it's a closure. Direction of scope.
-
+    //When child code shares with parent code it's a closure - Direction of scope is that Child can get from Parent but Parent cannot get from Child.
 
 
 /* 🚀🚀🚀 Task 2: Counter 🚀🚀🚀 */
@@ -60,7 +59,6 @@ const zooAnimals = [
     return displayNames;
   }
   
-
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
   The zoos need a list of all their animal's names (animal_name only) converted to lower case. Using map, create a new array of strings named lowCaseAnimalNames, each string following this pattern: "jackal, asiatic". Log the resut.
   */
@@ -117,11 +115,9 @@ const zooAnimals = [
   console.log(consume(10, 16, multiply)); // 160
   console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
   
-  
 // 🦁💪 Stretch: If you haven't already, convert your array method callbacks into arrow functions 🦁💪
           
       //DID IT, DONE!!!!
-
 
 
 // 🐴🐴🐴 Topic 3: Prototypes 🐴🐴🐴 //
@@ -135,7 +131,6 @@ function CuboidMaker(attribs){
   this.height = attribs.height;
 }
 
-
 /* 🐴🐴🐴 Step 2: Volume Method 🐴🐴🐴
   Create a method using CuboidMaker's prototype that returns the volume of a given cuboid's length, width, and height
   Formula for cuboid volume: length * width * height   */
@@ -143,7 +138,6 @@ function CuboidMaker(attribs){
 CuboidMaker.prototype.volume = function(){
   return this.length * this.width * this.height;
 }
-
 
 /* 🐴🐴🐴 Step 3: Surface Area Method 🐴🐴🐴
   Create another method using CuboidMaker's prototype that returns the surface area of a given cuboid's length, width, and height. 
